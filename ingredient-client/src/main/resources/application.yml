@@ -3,3 +3,6 @@ spring:
     name: ingredient-client
   profiles:
     active: webclient
+  cloud:
+    config:
+      uri: http://localhost:8888
